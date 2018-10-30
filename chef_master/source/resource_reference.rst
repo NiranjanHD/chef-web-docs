@@ -50,24 +50,24 @@ Properties
 The following properties are common to every resource:
 
 ``ignore_failure``
-   **Ruby Type:** true, false | **Default Value:** ``false``
+  **Ruby Type:** true, false | **Default Value:** ``false``
 
-   Continue running a recipe if a resource fails for any reason.
+  Continue running a recipe if a resource fails for any reason.
 
 ``retries``
-   **Ruby Type:** Integer | **Default Value:** ``0``
+  **Ruby Type:** Integer | **Default Value:** ``0``
 
-   The number of times to catch exceptions and retry the resource.
+  The number of times to catch exceptions and retry the resource.
 
 ``retry_delay``
-   **Ruby Type:** Integer | **Default Value:** ``2``
+  **Ruby Type:** Integer | **Default Value:** ``2``
 
-   The retry delay (in seconds).
+  The retry delay (in seconds).
 
 ``sensitive``
-   **Ruby Type:** true, false | **Default Value:** ``false``
+  **Ruby Type:** true, false | **Default Value:** ``false``
 
-   Ensure that sensitive resource data is not logged by the chef-client.
+  Ensure that sensitive resource data is not logged by the chef-client.
 
 
 .. end_tag
@@ -126,10 +126,10 @@ Attributes
 The following properties can be used to define a guard that is evaluated during the execution phase of the chef-client run:
 
 ``not_if``
-   Prevent a resource from executing when the condition returns ``true``.
+  Prevent a resource from executing when the condition returns ``true``.
 
 ``only_if``
-   Allow a resource to execute only if the condition returns ``true``.
+  Allow a resource to execute only if the condition returns ``true``.
 
 .. end_tag
 

@@ -44,7 +44,7 @@ The ohai resource has the following actions:
 
 Properties
 =====================================================
-.. tag resource_ohai_attributes
+.. tag resource_ohai_properties
 
 The ohai resource has the following properties:
 

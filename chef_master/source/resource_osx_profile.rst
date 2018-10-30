@@ -53,7 +53,7 @@ The osx_profile resource has the following actions:
 
 Properties
 =====================================================
-.. tag resource_osx_profile_attributes
+.. tag resource_osx_profile_properties
 
 The osx_profile resource has the following properties:
 
